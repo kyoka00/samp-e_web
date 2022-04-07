@@ -1,0 +1,87 @@
+body {
+    background-image: url(../images/bg_Argyle.jpg);
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+}
+
+h1.intro {
+    font-size: 25px;
+}
+
+.intro {
+    text-align: center;
+}
+
+.img_center {
+    text-align: center;
+}
+
+#curry_pic {
+    border: double 10px rgb(236, 115, 115);
+}
+
+ul {
+    list-style-type: circle;
+}
+
+table,
+td {
+    background-color: rgb(246, 239, 200);
+    border: 2px rgb(248, 155, 155) solid;
+}
+
+#ingredients {
+    color: red;
+    font-weight: bold;
+}
+
+em {
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+}
+
+td {
+    padding-right: 20px;
+}
+
+.serif {
+    font-family: sans-serif;
+}
+
+/* フォームスタイル */
+form{
+    padding:20px;
+    margin:auto;
+    width: 600px;
+    height:550px;
+    border: 1px solid pink;
+    border-radius: 0.7em;
+    box-shadow:3px 3px 3px grey;
+    background:white;
+    text-align:center;
+    line-height: 2.7em;
+    
+}
+.form-center{
+    text-align:center;
+}
+.surround{
+    border:1px solid grey;
+    border-radius: 0.3em;
+    padding: 3px;
+}
+textarea{
+    height:60px;
+    width: 400px;
+}
+button{
+    padding:0.3em 0.6em;
+    margin: 5px;
+    background-color: rgb(234, 234, 234);
+    border: 1.5px solid grey;
+    box-shadow:1px 1px 1px darkgrey;
+}

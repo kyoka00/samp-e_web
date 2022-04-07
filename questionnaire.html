@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>質問シート</title>
+    <link rel="stylesheet" href="css/questionnaire.css">
+
+</head>
+
+<body>
+    <h1>アンケート</h1>
+    <hr noshade>
+    <div class="surrounded">
+        <p>
+            AxiZの研修をご利用いただき、誠にありがとうございます。<br>
+            以下の内容の記入及び送信をしていただけると幸いです。<br>
+        </p>
+        <form action="questionnaire_result.html">
+            <div class="section">
+            <label for="company">会社</label><label class="required"></label></label><br>
+            <input type="text" name="company"placeholder="例)株式会社テクノコア"><br>
+        </div>
+        <div class="section">
+            <label for="name">名前</label><label class="required"></label> <br>
+            <input type="text" name="name"placeholder="例)手久野興亜"><br>
+        </div>
+            <div class="section">
+            <label for="e-mail">メールアドレス</label> <br>
+            <input type="email" name="e-mail"placeholder="例)example@axiz.co.jp"><br>
+        </div>
+            <div class="section">
+            <label for="age">年齢</label> <br>
+            <input type="number" name="age" value="23"><br>
+        </div>
+            <div class="section">
+            <label for="course">受講コース</label> <br>
+            <input type="radio" name="course" value="java">JavaScript
+            <input type="radio" name="course" value="infra">インフラ<br>
+        </div>
+            <div class="section">
+            <label for="place">会場</label> <br>
+            <select name="place">
+                <option value="nihonbashi_A">日本橋A教室</option>
+                <option value="nihonbashi_B">日本橋B教室</option>
+                <option value="iidabashi">飯田橋教室</option>
+                <option value="okinawa">沖縄教室</option>
+            </select><br>
+        </div>
+            <div class="section">
+            <label for="content_interest">詳しく学びたい内容（複数回答可）</label><br>
+            <input type="checkbox" name="content_interest" value="business_manner">ビジネスマナー<br>
+            <input type="checkbox" name="content_interest" value="html_css">HTML/CSS<br>
+            <input type="checkbox" name="content_interest" value="javascript">JavaScript<br>
+            <input type="checkbox" name="content_interest" value="database">データベース<br>
+            <input type="checkbox" name="content_interest" value="linux" class="margin">Linux<br>
+        </div>
+            <div class="section">
+            <label for="opinion">ご意見</label> <br>
+            <textarea nmae="opinion" row="5" cols="40" placeholder="ご自由にご記入ください。"></textarea><br>
+        </div>
+            <button type="submit">送信する</button>
+        </form>
+    </div>
+    <hr noshade>
+    <footer>
+        <p>Copyright(C) AxiZ</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登録フォーム</title>
+    <link rel="stylesheet" href="css/recipe.css">
+</head>
+
+<body class="form-center">
+    <h1>質問・感想フォーム</h1>
+    <form action="resut.html">
+        <label for="name">氏名</label> <br>
+        <input type="text" name="name"><br>
+        <label for="gender">性別</label><br>
+        <label class="surround"><input type="radio" name="gender" value="male" checked> 男性</label>
+        <label class="surround"><input type="radio" name="gender" value="female"> 女性</label><br>
+        <label for="age">年齢</label><br>
+        <select name="age">
+            <option value="10s" selected>10代</option>
+            <option value="20s">20代</option>
+            <option value="30s">30代</option>
+            <option value="40s">40代</option>
+            <option value="50s">50代</option>
+            <option value="60s">60代</option>
+            <option value="70s">70代</option>
+            <option value="oldder80">80代以上</option>
+        </select><br>
+        <div class="checkbox">
+        <label for="food_interest">今後見てみたいレシピ</label><br>
+        <label class="surround"><input type="checkbox" name="food_interest" value="japanese"><label for ="japanese">和食</label></label>
+        <label class="surround"><input type="checkbox" name="food_interest" value="chinese">中華</label>
+        <label class="surround"><input type="checkbox" name="food_interest" value="western">洋食</label>
+        <label class="surround"><input type="checkbox" name="food_interest" value="italian">イタリアン</label>
+        <label class="surround"><input type="checkbox" name="food_interest" value="sweets">スイーツ</label>
+        <label class="surround"><input type="checkbox" name="food_interest" value="others">その他</label> <br>
+        </div>
+        <label for="コメント">自由コメント欄</label><br>
+        <textarea name="free_comment" row="10"cols="50"placeholder="自由に意見を記述してください"></textarea><br>
+        <button type="submit">送信</button>
+        <button type="reset">取り消し</button>
+    </form>
+</body>
+
+</html>
