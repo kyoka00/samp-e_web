@@ -21,11 +21,11 @@
         <form action="questionnaire_result.html">
             <div class="section">
             <label for="company">会社</label><label class="required"></label></label><br>
-            <input type="text" name="company"placeholder="例)株式会社テクノコア"><br>
+            <input type="text" name="company"placeholder="例)株式会社テクノコア" required><br>
         </div>
         <div class="section">
             <label for="name">名前</label><label class="required"></label> <br>
-            <input type="text" name="name"placeholder="例)手久野興亜"><br>
+            <input type="text" name="name"placeholder="例)手久野興亜" required><br>
         </div>
             <div class="section">
             <label for="e-mail">メールアドレス</label> <br>
@@ -37,8 +37,8 @@
         </div>
             <div class="section">
             <label for="course">受講コース</label> <br>
-            <input type="radio" name="course" value="java">JavaScript
-            <input type="radio" name="course" value="infra">インフラ<br>
+            <label><input type="radio" name="course" value="javascript">JavaScript</label>
+            <label><input type="radio" name="course" value="infra">インフラ</label><br>
         </div>
             <div class="section">
             <label for="place">会場</label> <br>
@@ -51,11 +51,11 @@
         </div>
             <div class="section">
             <label for="content_interest">詳しく学びたい内容（複数回答可）</label><br>
-            <input type="checkbox" name="content_interest" value="business_manner">ビジネスマナー<br>
-            <input type="checkbox" name="content_interest" value="html_css">HTML/CSS<br>
-            <input type="checkbox" name="content_interest" value="javascript">JavaScript<br>
-            <input type="checkbox" name="content_interest" value="database">データベース<br>
-            <input type="checkbox" name="content_interest" value="linux" class="margin">Linux<br>
+            <label><input type="checkbox" name="content_interest" value="business_manner">ビジネスマナー</label><br>
+            <label><input type="checkbox" name="content_interest" value="html_css">HTML/CSS</label><br>
+            <label><input type="checkbox" name="content_interest" value="javascript">JavaScript</label><br>
+            <label><input type="checkbox" name="content_interest" value="database">データベース</label><br>
+            <label><input type="checkbox" name="content_interest" value="linux" class="margin">Linux</label><br>
         </div>
             <div class="section">
             <label for="opinion">ご意見</label> <br>

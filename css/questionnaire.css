@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(202, 240, 255);
+    background-color: rgb(211, 253, 255);
 }
 
 h1 {
@@ -12,13 +12,14 @@ h1 {
     padding: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-top: 0;
+    margin-bottom:0;
     margin-left: auto;
     margin-right: auto;
     width: 600px;
     height: 1000px;
-    border: 1px solid pink;
+    border: 1px solid lightgray;
     border-radius: 0.7em;
-    box-shadow: 3px 3px 3px grey;
     background: white;
     line-height: 1.8em;
 }
@@ -30,14 +31,14 @@ footer {
 
 hr {
     height: 2px;
-    background-color: #006aff;
+    background-color: #22a9f7;
     border: none;
-    color: #006aff;
+    color: #22a9f7;
 }
 
 .required::after {
     content: "必須";
-    background-color: #ff4a18;
+    background-color: #ff592b;
     color: #fff;
     font-size: 12px;
     font-weight: bold;
@@ -48,11 +49,11 @@ hr {
     vertical-align: middle;
     white-space: nowrap;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 5px;
     display: inline-block;
 }
 textarea{
-    width:500px;
+    width:550px;
     height:120px;
 }
 input[type="number"]{
@@ -64,6 +65,8 @@ input[type="number"]{
 input[type="text"],input[type="email"],select{
     width:550px;
     height:20px;
+    border-radius:5px;
+    border:1px solid grey;
    
 }
 .section{
@@ -71,5 +74,15 @@ input[type="text"],input[type="email"],select{
 }
 button{
     height:40px;
-    width: 80px;
+    width: 70px;
+    box-shadow:1px 1px lightgrey;
+    border-radius:5px;
+    border: 1px solid grey;6
+}
+input,textarea,select{
+    border-radius:5px;
+    border:1px solid grey;
+}
+input[type="text"],input[type="email"],input[type="number"],select,textarea{
+    box-shadow: 1px 1px lightgrey;
 }
